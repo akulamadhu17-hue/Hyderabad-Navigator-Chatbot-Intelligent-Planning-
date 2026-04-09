@@ -1,0 +1,180 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Hey", "Good morning", "Good evening", "Howdy", "Whats up", "Greetings",
+        "नमस्ते", "हेलो", "हाय", "सुप्रभात", "नमस्कार", "कैसे हो",
+        "నమస్కారం", "హలో", "హాయ్", "శుభోదయం", "నమస్తే", "బాగున్నారా"
+      ],
+      "responses": {
+        "en": "Hello! Welcome to Hyderabad Navigator! I'm here to help you plan your perfect trip to the City of Pearls. Ask me about places, food, hotels, or transport!",
+        "hi": "नमस्ते! हैदराबाद नेविगेटर में आपका स्वागत है! मैं आपकी हैदराबाद यात्रा की योजना बनाने में मदद करूंगा।",
+        "te": "నమస్కారం! హైదరాబాద్ నావిగేటర్‌కు స్వాగతం! మీ హైదరాబాద్ యాత్రను ప్లాన్ చేయడంలో నేను సహాయం చేస్తాను."
+      }
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye", "Goodbye", "See you", "Take care", "Later", "Farewell", "Good night", "Cya",
+        "अलविदा", "बाय", "फिर मिलेंगे", "शुभरात्रि", "जाता हूं",
+        "వెళ్ళొస్తాను", "బై", "మళ్ళీ కలుద్దాం", "శుభ రాత్రి", "వెళ్తున్నాను"
+      ],
+      "responses": {
+        "en": "Goodbye! Have a wonderful trip to Hyderabad! Come back if you need more help. Jai Hind!",
+        "hi": "अलविदा! हैदराबाद में आपकी यात्रा शानदार हो! फिर मिलेंगे।",
+        "te": "వెళ్ళొస్తాను! హైదరాబాద్‌లో మీ యాత్ర అద్భుతంగా ఉండాలి!"
+      }
+    },
+    {
+      "tag": "sightseeing",
+      "patterns": [
+        "places to visit in Hyderabad", "tourist attractions", "sightseeing spots", "famous places",
+        "what to see in Hyderabad", "monuments in Hyderabad", "historical places", "tourist spots",
+        "best places Hyderabad", "attractions near me", "where to go in Hyderabad", "must visit places",
+        "Charminar", "Golconda fort", "Ramoji film city", "Hussain sagar", "Birla mandir",
+        "हैदराबाद में घूमने की जगह", "दर्शनीय स्थल", "पर्यटन स्थल", "ऐतिहासिक जगहें",
+        "चारमीनार", "गोलकोंडा किला", "हुसैन सागर", "रामोजी फिल्म सिटी",
+        "హైదరాబాద్‌లో చూడవలసిన స్థలాలు", "పర్యాటక ప్రదేశాలు", "చారిత్రక ప్రదేశాలు",
+        "చార్మినార్", "గోల్కొండ కోట", "హుస్సేన్ సాగర్", "రామోజీ ఫిల్మ్ సిటీ",
+        "famous monuments", "heritage sites", "temples in Hyderabad", "lakes in Hyderabad"
+      ],
+      "responses": {
+        "en": "🏛️ Top Places to Visit in Hyderabad:\n1. Charminar - Iconic 16th century monument\n2. Golconda Fort - Historic fortress with light & sound show\n3. Hussain Sagar Lake - Beautiful heart-shaped lake\n4. Ramoji Film City - World's largest film studio\n5. Birla Mandir - Stunning hilltop temple\n6. Salar Jung Museum - Largest one-man collection museum\n7. Chowmahalla Palace - Nizam's royal residence\n8. KBR National Park - Urban wildlife sanctuary",
+        "hi": "🏛️ हैदराबाद के प्रमुख दर्शनीय स्थल:\n1. चारमीनार - 16वीं सदी का ऐतिहासिक स्मारक\n2. गोलकोंडा किला - ऐतिहासिक दुर्ग और लाइट शो\n3. हुसैन सागर झील - सुंदर दिल के आकार की झील\n4. रामोजी फिल्म सिटी - विश्व का सबसे बड़ा फिल्म स्टूडियो\n5. बिरला मंदिर - पहाड़ी पर स्थित सुंदर मंदिर",
+        "te": "🏛️ హైదరాబాద్‌లో చూడవలసిన ప్రదేశాలు:\n1. చార్మినార్ - 16వ శతాబ్దపు చారిత్రక స్మారకం\n2. గోల్కొండ కోట - చారిత్రక కోట మరియు లైట్ షో\n3. హుస్సేన్ సాగర్ - అందమైన గుండె ఆకారపు సరస్సు\n4. రామోజీ ఫిల్మ్ సిటీ - ప్రపంచంలో అతి పెద్ద చలనచిత్ర స్టూడియో\n5. బిర్లా మందిర్ - కొండపై అందమైన దేవాలయం"
+      }
+    },
+    {
+      "tag": "food_recommendation",
+      "patterns": [
+        "food in Hyderabad", "best restaurants", "where to eat", "local cuisine", "Hyderabadi food",
+        "biryani", "haleem", "famous dishes", "street food", "restaurants near me",
+        "best biryani", "Hyderabadi biryani", "food places", "dining options", "local food",
+        "हैदराबाद में खाना", "बिरयानी कहां मिलेगी", "रेस्टोरेंट", "स्थानीय खाना", "हलीम",
+        "పరమాన్నాలు", "హైదరాబాదీ బిర్యానీ", "హలీమ్", "రెస్టారెంట్లు", "తినడానికి చోటు",
+        "Irani chai", "Osmania biscuit", "kebabs", "qubani ka meetha", "double ka meetha"
+      ],
+      "responses": {
+        "en": "🍛 Hyderabad Food Guide:\n🥘 Must-Try Dishes:\n- Hyderabadi Dum Biryani (Bawarchi, Paradise, Shah Ghouse)\n- Haleem (Pista House - Famous worldwide)\n- Irani Chai with Osmania Biscuits\n- Kebabs & Qubani ka Meetha\n\n🏪 Top Restaurants:\n1. Paradise Biryani - Multiple locations\n2. Bawarchi - RTC X Roads\n3. Pista House - Haleem specialist\n4. Shadab Hotel - Old City\n5. Hotel Nayaab - Authentic Hyderabadi",
+        "hi": "🍛 हैदराबाद फूड गाइड:\n- हैदराबादी दम बिरयानी (बावर्ची, पैराडाइज)\n- हलीम (पिस्ता हाउस)\n- ईरानी चाय उस्मानिया बिस्किट के साथ\n- कबाब और मिठाइयां",
+        "te": "🍛 హైదరాబాద్ ఫుడ్ గైడ్:\n- హైదరాబాదీ దమ్ బిర్యానీ (బావర్చి, పారడైజ్)\n- హలీమ్ (పిస్తా హౌస్)\n- ఇరానీ చాయ్ ఉస్మానియా బిస్కట్‌తో\n- కబాబ్‌లు మరియు మిఠాయిలు"
+      }
+    },
+    {
+      "tag": "hotel_booking",
+      "patterns": [
+        "hotels in Hyderabad", "where to stay", "accommodation", "best hotels", "cheap hotels",
+        "luxury hotels", "budget hotels", "guesthouses", "resorts", "hotel booking",
+        "3 star hotel", "5 star hotel", "rooms available", "hotel near airport", "hotel near Charminar",
+        "हैदराबाद में होटल", "कहां रुकें", "सस्ते होटल", "लग्जरी होटल", "कमरे",
+        "హైదరాబాద్‌లో హోటళ్లు", "ఎక్కడ ఉండాలి", "చౌకైన హోటళ్లు", "లగ్జరీ హోటళ్లు"
+      ],
+      "responses": {
+        "en": "🏨 Hotels in Hyderabad:\n\n⭐ Luxury (5-Star):\n- Taj Falaknuma Palace\n- ITC Kohenur\n- Novotel Hyderabad Convention Centre\n\n🌟 Mid-Range (3-4 Star):\n- Lemon Tree Hotel\n- Fortune Select Manohar\n- Golkonda Hotel\n\n💰 Budget:\n- Hotel Sitara\n- OYO Rooms (Various locations)\n- Treebo Hotels\n\n📍 Best Areas to Stay: Banjara Hills, Jubilee Hills, Hitech City, Madhapur",
+        "hi": "🏨 हैदराबाद में होटल:\n- ताज फलकनुमा पैलेस (लग्जरी)\n- ITC कोहेनूर (5 स्टार)\n- लेमन ट्री होटल (मिड-रेंज)\n- OYO रूम्स (बजट)",
+        "te": "🏨 హైదరాబాద్‌లో హోటళ్లు:\n- తాజ్ ఫలక్నుమా పాలెస్ (లగ్జరీ)\n- ITC కోహేనూర్ (5 స్టార్)\n- లెమన్ ట్రీ హోటల్ (మధ్యస్థ)\n- OYO రూమ్స్ (బడ్జెట్)"
+      }
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "how to get around Hyderabad", "transport in Hyderabad", "local transport", "auto rickshaw",
+        "metro rail", "bus service", "cab service", "TSRTC", "Ola Uber Hyderabad", "airport transport",
+        "how to reach Charminar", "taxi", "public transport", "MMTS train",
+        "हैदराबाद में यातायात", "मेट्रो", "ऑटो", "बस", "टैक्सी", "हवाई अड्डे से",
+        "హైదరాబాద్‌లో రవాణా", "మెట్రో", "ఆటో", "బస్", "టాక్సీ", "విమానాశ్రయం నుండి"
+      ],
+      "responses": {
+        "en": "🚇 Transport in Hyderabad:\n\n🚇 Metro Rail: Hyderabad Metro covers major areas - Miyapur to LB Nagar, JBS to MGBS, Nagole to Raidurg\n\n🚌 TSRTC Buses: Extensive city bus network, very affordable\n\n🚗 Cab Services: Ola, Uber, Rapido available 24/7\n\n🛺 Auto Rickshaws: Metered autos, negotiate for outstation\n\n✈️ Airport: Rajiv Gandhi International Airport - 35km from city center. Pushpak bus service available.",
+        "hi": "🚇 हैदराबाद में यातायात:\n- मेट्रो रेल: प्रमुख क्षेत्रों को जोड़ती है\n- TSRTC बसें: किफायती और व्यापक नेटवर्क\n- ओला/उबेर: 24/7 उपलब्ध\n- ऑटो रिक्शा: मीटर से चलते हैं",
+        "te": "🚇 హైదరాబాద్‌లో రవాణా:\n- మెట్రో రైల్: ప్రధాన ప్రాంతాలను కలుపుతుంది\n- TSRTC బస్సులు: చవకైన మరియు విస్తృత నెట్‌వర్క్\n- ఓలా/ఉబర్: 24/7 అందుబాటులో\n- ఆటో రిక్షాలు: మీటర్‌తో నడుస్తాయి"
+      }
+    },
+    {
+      "tag": "weather_query",
+      "patterns": [
+        "weather in Hyderabad", "climate Hyderabad", "temperature today", "rain forecast",
+        "when to visit Hyderabad", "best season to visit", "monsoon Hyderabad", "summer winter",
+        "हैदराबाद का मौसम", "तापमान", "बारिश", "कब जाएं", "सबसे अच्छा मौसम",
+        "హైదరాబాద్ వాతావరణం", "ఉష్ణోగ్రత", "వర్షం", "ఎప్పుడు వెళ్ళాలి", "ఉత్తమ సీజన్"
+      ],
+      "responses": {
+        "en": "🌤️ Hyderabad Weather Guide:\n\n🌸 Best Time to Visit: October to February (pleasant weather, 15-25°C)\n\n☀️ Summer (March-June): Hot, 35-42°C - carry sunscreen\n🌧️ Monsoon (July-September): Moderate rainfall, lush green city\n❄️ Winter (November-February): Pleasant, ideal for sightseeing\n\n📊 Current Weather: Use our weather widget for real-time data!\n\n💡 Tip: Carry light cotton clothes in summer, light jacket in winter.",
+        "hi": "🌤️ हैदराबाद का मौसम:\n- सबसे अच्छा समय: अक्टूबर से फरवरी\n- गर्मी: मार्च-जून (35-42°C)\n- मानसून: जुलाई-सितंबर\n- सर्दी: नवंबर-फरवरी (15-25°C)",
+        "te": "🌤️ హైదరాబాద్ వాతావరణం:\n- సందర్శించడానికి ఉత్తమ సమయం: అక్టోబర్ నుండి ఫిబ్రవరి\n- వేసవి: మార్చి-జూన్ (35-42°C)\n- వర్షాకాలం: జూలై-సెప్టెంబర్\n- శీతాకాలం: నవంబర్-ఫిబ్రవరి (15-25°C)"
+      }
+    },
+    {
+      "tag": "budget_query",
+      "patterns": [
+        "budget for Hyderabad trip", "how much does it cost", "trip cost", "daily budget",
+        "cheap trip Hyderabad", "expensive Hyderabad", "money needed", "cost of living",
+        "हैदराबाद यात्रा बजट", "कितना खर्च होगा", "सस्ती यात्रा", "प्रतिदिन खर्च",
+        "హైదరాబాద్ యాత్ర బడ్జెట్", "ఎంత ఖర్చవుతుంది", "చవకైన యాత్ర", "రోజువారీ ఖర్చు"
+      ],
+      "responses": {
+        "en": "💰 Hyderabad Trip Budget Guide:\n\n🟢 Budget Traveler (₹1,500-2,500/day):\n- Budget hotel/hostel: ₹500-800\n- Local food: ₹200-400\n- Transport (metro+bus): ₹100-150\n- Entry fees: ₹200-500\n\n🟡 Mid-Range (₹3,000-6,000/day):\n- 3-star hotel: ₹1,500-3,000\n- Restaurant meals: ₹500-1,000\n- Cab: ₹300-500\n\n🔴 Luxury (₹8,000+/day):\n- 5-star hotel: ₹5,000-15,000\n- Fine dining: ₹1,500-3,000\n- Private transport",
+        "hi": "💰 हैदराबाद यात्रा बजट:\n- बजट: ₹1,500-2,500/दिन\n- मिड-रेंज: ₹3,000-6,000/दिन\n- लग्जरी: ₹8,000+/दिन",
+        "te": "💰 హైదరాబాద్ యాత్ర బడ్జెట్:\n- బడ్జెట్: ₹1,500-2,500/రోజు\n- మధ్యస్థ: ₹3,000-6,000/రోజు\n- లగ్జరీ: ₹8,000+/రోజు"
+      }
+    },
+    {
+      "tag": "itinerary",
+      "patterns": [
+        "plan my trip", "itinerary for Hyderabad", "day plan", "2 days in Hyderabad",
+        "3 days itinerary", "1 week trip plan", "trip plan", "schedule for visit",
+        "what to do in 2 days", "3 day tour", "weekend trip", "day by day plan",
+        "मेरी यात्रा की योजना", "2 दिन हैदराबाद", "यात्रा कार्यक्रम",
+        "నా యాత్రను ప్లాన్ చేయండి", "2 రోజులు హైదరాబాద్", "యాత్రా కార్యక్రమం"
+      ],
+      "responses": {
+        "en": "📅 3-Day Hyderabad Itinerary:\n\n🗓️ Day 1 - Old City Heritage:\nMorning: Charminar → Laad Bazaar shopping\nAfternoon: Mecca Masjid → Chowmahalla Palace\nEvening: Hussain Sagar sunset → Tank Bund walk\nDinner: Shadab Hotel (Biryani)\n\n🗓️ Day 2 - Forts & Culture:\nMorning: Golconda Fort (early to avoid heat)\nAfternoon: Salar Jung Museum\nEvening: Birla Mandir → Planetarium\nDinner: Paradise Biryani\n\n🗓️ Day 3 - Modern Hyderabad:\nMorning: Ramoji Film City (full day)\nOR: Hi-Tech City → Cyber Towers\nEvening: Shilparamam craft village\nDinner: Banjara Hills restaurants",
+        "hi": "📅 3 दिन हैदराबाद यात्रा:\nदिन 1: चारमीनार, लाड बाजार, हुसैन सागर\nदिन 2: गोलकोंडा किला, सालार जंग संग्रहालय\nदिन 3: रामोजी फिल्म सिटी",
+        "te": "📅 3 రోజుల హైదరాబాద్ యాత్ర:\nరోజు 1: చార్మినార్, లాద్ బజార్, హుస్సేన్ సాగర్\nరోజు 2: గోల్కొండ కోట, సాలార్ జంగ్ మ్యూజియం\nరోజు 3: రామోజీ ఫిల్మ్ సిటీ"
+      }
+    },
+    {
+      "tag": "local_tips",
+      "patterns": [
+        "tips for visiting Hyderabad", "local tips", "travel advice", "things to know",
+        "safety tips", "dos and donts", "what to carry", "local customs", "etiquette",
+        "हैदराबाद यात्रा टिप्स", "स्थानीय सुझाव", "सुरक्षा टिप्स",
+        "హైదరాబాద్ యాత్రా చిట్కాలు", "స్థానిక సూచనలు", "భద్రత చిట్కాలు"
+      ],
+      "responses": {
+        "en": "💡 Hyderabad Travel Tips:\n\n✅ Do's:\n- Visit monuments early morning (less crowd, cooler)\n- Try street food at famous spots (Charminar area)\n- Use Metro Rail - fast and affordable\n- Carry cash for Old City markets\n- Dress modestly at religious sites\n\n❌ Don'ts:\n- Don't visit Golconda Fort in afternoon heat\n- Don't pay more than meter rate for autos\n- Avoid carrying valuables in crowded areas\n\n📱 Must-Have Apps: Ola, Google Maps, TSRTC app\n🌐 Language: Telugu is local, Hindi & English widely understood",
+        "hi": "💡 हैदराबाद यात्रा सुझाव:\n- सुबह जल्दी स्मारकों पर जाएं\n- मेट्रो का उपयोग करें\n- धार्मिक स्थलों पर शालीन कपड़े पहनें\n- ओला/उबेर ऐप रखें",
+        "te": "💡 హైదరాబాద్ యాత్రా చిట్కాలు:\n- స్మారకాలను ఉదయం సందర్శించండి\n- మెట్రో రైల్ ఉపయోగించండి\n- మత స్థలాలలో మర్యాదగా దుస్తులు ధరించండి\n- ఓలా/ఉబర్ యాప్ ఉంచుకోండి"
+      }
+    },
+    {
+      "tag": "emergency_info",
+      "patterns": [
+        "emergency numbers", "police number", "ambulance", "hospital", "help",
+        "lost in Hyderabad", "emergency contact", "tourist helpline", "police station",
+        "आपातकालीन नंबर", "पुलिस", "अस्पताल", "मदद", "खो गया",
+        "అత్యవసర నంబర్లు", "పోలీస్", "ఆసుపత్రి", "సహాయం", "దారి తప్పాను"
+      ],
+      "responses": {
+        "en": "🆘 Emergency Contacts in Hyderabad:\n\n🚨 Police: 100\n🚑 Ambulance: 108\n🔥 Fire: 101\n👮 Tourist Police: 1363\n📞 Hyderabad Police: 040-27852425\n\n🏥 Major Hospitals:\n- KIMS Hospital: 040-44885000\n- Apollo Hospital: 040-23607777\n- Yashoda Hospital: 040-45677777\n\n⚠️ If lost: Contact nearest police station or call 100",
+        "hi": "🆘 हैदराबाद में आपातकालीन नंबर:\n- पुलिस: 100\n- एम्बुलेंस: 108\n- फायर: 101\n- पर्यटक पुलिस: 1363",
+        "te": "🆘 హైదరాబాద్‌లో అత్యవసర నంబర్లు:\n- పోలీస్: 100\n- అంబులెన్స్: 108\n- అగ్నిమాపక: 101\n- పర్యాటక పోలీస్: 1363"
+      }
+    },
+    {
+      "tag": "shopping",
+      "patterns": [
+        "shopping in Hyderabad", "where to shop", "markets", "bazaars", "malls",
+        "pearls shopping", "bangles", "Laad Bazaar", "Begum Bazaar", "souvenirs",
+        "हैदराबाद में शॉपिंग", "बाजार", "मोती", "चूड़ियां", "लाड बाजार",
+        "హైదరాబాద్‌లో షాపింగ్", "బజార్లు", "ముత్యాలు", "గాజులు", "లాద్ బజార్"
+      ],
+      "responses": {
+        "en": "🛍️ Shopping in Hyderabad:\n\n💎 Famous For:\n- Hyderabadi Pearls (Laad Bazaar, Patherghatti)\n- Lac Bangles (Laad Bazaar)\n- Bidriware handicrafts\n- Pochampally silk sarees\n\n🏪 Popular Markets:\n1. Laad Bazaar - Bangles & jewelry near Charminar\n2. Begum Bazaar - Wholesale & household items\n3. Abids - Books, electronics\n4. Shilparamam - Handicrafts village\n\n🏬 Malls: GVK One, Inorbit, Forum Sujana City",
+        "hi": "🛍️ हैदराबाद में शॉपिंग:\n- हैदराबादी मोती और आभूषण\n- लाख की चूड़ियां (लाड बाजार)\n- बिदरीवेयर\n- पोचमपल्ली साड़ियां",
+        "te": "🛍️ హైదరాబాద్‌లో షాపింగ్:\n- హైదరాబాదీ ముత్యాలు మరియు ఆభరణాలు\n- లాక్ గాజులు (లాద్ బజార్)\n- బిద్రీవేర్ చేతివృత్తులు\n- పోచంపల్లి చీరలు"
+      }
+    }
+  ]
+}
